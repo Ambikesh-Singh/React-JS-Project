@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="file.css">
+</head>
+<body>
+
+<div class="box">
+    <h2>Grade Calculator</h2>
+
+    <input type="number" id="s1" placeholder="Subject 1"><br>
+    <input type="number" id="s2" placeholder="Subject 2"><br>
+    <input type="number" id="s3" placeholder="Subject 3"><br>
+    <input type="number" id="s4" placeholder="Subject 4"><br>
+    <input type="number" id="s5" placeholder="Subject 5"><br>
+
+    <button onclick="calc()">Calculate</button>
+
+    <p id="result"></p>
+</div>
+
+<script src="file.js"></script>
+
+</body>
+</html>
